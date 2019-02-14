@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13266,11 +13266,12 @@ D13 SCK/ICSP</text>
 </net>
 <net name="A1" class="0">
 <segment>
-<wire x1="124.46" y1="71.12" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
 <label x="132.08" y="71.12" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PC1(ADC1)"/>
 <pinref part="LED9" gate="G$1" pin="A"/>
-<wire x1="139.7" y1="71.12" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="71.12" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -13279,7 +13280,9 @@ D13 SCK/ICSP</text>
 <label x="132.08" y="68.58" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PC2(ADC2)"/>
 <pinref part="LED10" gate="G$1" pin="A"/>
-<wire x1="139.7" y1="68.58" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="68.58" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="73.66" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A4_SDA" class="0">
@@ -13288,7 +13291,9 @@ D13 SCK/ICSP</text>
 <label x="132.08" y="63.5" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PC4(ADC4/SDA)"/>
 <pinref part="LED7" gate="G$1" pin="A"/>
-<wire x1="139.7" y1="63.5" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="63.5" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A5_SCL" class="0">
@@ -13296,7 +13301,9 @@ D13 SCK/ICSP</text>
 <label x="132.08" y="60.96" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="124.46" y1="60.96" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="60.96" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="58.42" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D0_RX" class="3">
@@ -13319,7 +13326,9 @@ D13 SCK/ICSP</text>
 <label x="132.08" y="43.18" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PD3(INT1)"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="195.58" y1="50.8" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="50.8" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -13328,7 +13337,9 @@ D13 SCK/ICSP</text>
 <label x="132.08" y="40.64" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PD4(XCK/T0)"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="139.7" y1="40.64" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="40.64" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="40.64" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -13337,7 +13348,9 @@ D13 SCK/ICSP</text>
 <label x="132.08" y="38.1" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PD5(T1)"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="139.7" y1="38.1" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="38.1" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="35.56" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -13354,7 +13367,9 @@ D13 SCK/ICSP</text>
 <wire x1="124.46" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PB1(OC1A)"/>
 <pinref part="LED8" gate="G$1" pin="A"/>
-<wire x1="139.7" y1="25.4" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="25.4" x2="190.5" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="25.4" x2="190.5" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="20.32" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D10_SS" class="0">
@@ -13363,7 +13378,9 @@ D13 SCK/ICSP</text>
 <wire x1="124.46" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PB2(SS/OC1B)"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="139.7" y1="22.86" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="22.86" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="22.86" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="10.16" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D11_MOSI" class="0">
